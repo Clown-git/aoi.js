@@ -259,6 +259,7 @@ class Client {
       disabledFunctionsStarting: [],
       fetchInvites: false,
       boosterToken: null,
+      consoleErrors: false
     }
   ) {
     if (options.typingStopEvent)
