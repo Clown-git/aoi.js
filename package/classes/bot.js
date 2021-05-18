@@ -266,6 +266,8 @@ class Client {
       client.on("typingStart", (channel, user) =>
         require("../handlers/typingStopHandling")(client, channel, user)
       );
+      
+    this.options = options;
 
     client.bot = this;
     this.client = client;
